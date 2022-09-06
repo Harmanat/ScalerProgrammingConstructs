@@ -71,10 +71,6 @@ public class Q5AntiDiagonals {
 	
 		}
 		
-		System.out.println("**********************************");
-		if(0==0)
-			return null;
-		
 		// printing diagonals with i from 1 to n-1 and j = N-1
 		int j = len - 1;
 		for (i = 1; i < len; i++) {

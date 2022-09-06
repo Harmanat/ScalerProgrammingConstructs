@@ -45,9 +45,7 @@ public class Q7RotateMatrix {
 			for (int j = 0; j < A.length/2; j++) {
 				int temp = A[i][j];
 				A[i][j] = A[i][len];
-				int aij = A[i][j];
 				A[i][len] = temp;
-				int ailen = A[i][len];
 				len--;
 			}
 		}
